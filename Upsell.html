@@ -9,5 +9,33 @@
   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
   <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> 
   <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+  <button class="kirvano-payment-trigger">Sim, eu aceito essa oferta especial!</button>
+  <button class="kirvano-refuse-trigger">Não, eu gostaria de recusar essa oferta</button>
+  
+      <script>
+        var offer = "7c0718fe-0911-4951-8b1a-47e3712edd35";
+        var nextPageURL = null;
+        var refusePageURL = null;
+      </script>
+      <script src="https://snippets.kirvano.com/upsell.min.js"></script>
+
+      <!--
+      INSTRUÇÕES:
+
+      Para abrir o modal do upsell, basta adicionar a classe "kirvano-payment-trigger" no(s) elemento(s) 
+      da página que vão executar a ação de compra. 
+
+      Exemplo: 
+      <button class="kirvano-payment-trigger">Sim, eu aceito essa oferta especial!</button> 
+
+      Da mesma forma, para rejeitar a oferta, adicione a classe "kirvano-refuse-trigger" 
+      no(s) elemento(s) por essa ação. Dependendo de como sua estratégia foi configurada, 
+      o cliente será direcionado para uma nova oferta  ou para a "Página de obrigado" da Kirvano. 
+
+      Exemplo: 
+      <button class="kirvano-refuse-trigger">Não, eu gostaria de recusar essa oferta</button>
+      -->
+    
 </body>
 </html>
