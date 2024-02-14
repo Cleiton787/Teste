@@ -1,4 +1,56 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .kirvano-payment-trigger,
+        .kirvano-refuse-trigger {
+            height: 1.5cm;
+            width: 8cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px; /* Adiciona cantos arredondados, você pode ajustar conforme necessário */
+            cursor: pointer;
+            margin-top: 0.5cm; /* Adiciona a distância entre os botões */
+        }
+
+        .kirvano-payment-trigger {
+            background-color: #4CAF50; /* Cor de fundo do botão aceitar, pode ser alterada */
+            color: white; /* Cor do texto do botão aceitar, pode ser alterada */
+        }
+
+        .kirvano-refuse-trigger {
+            background-color: #FF0000; /* Cor de fundo do botão recusar, vermelho */
+            color: white; /* Cor do texto do botão recusar, pode ser alterada */
+        }
+    </style>
+    <title>Botões de Aceitação e Recusa</title>
+</head>
+<body>
+    <button class="kirvano-payment-trigger">Sim, eu aceito essa oferta especial!</button>
+    <button class="kirvano-refuse-trigger">Não, quero recusar essa oferta</button>
+</body>
+</html>
+
+
+<!--
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -63,3 +115,6 @@
        
 </body>
 </html>
+-->
+
+
